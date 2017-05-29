@@ -1,4 +1,4 @@
 # Linklist
 Data_structure/linklist
-Implemented link list using C
+Implemented a simple link list using C
 
