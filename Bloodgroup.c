@@ -19,7 +19,7 @@ int Database(char ara[],char group[])
 
     strcpy(temp->blood,group);
     temp->next=NULL;
-    if(start==NULL)
+    if(start==NULL) //if there is no data in the list.
     {
 
         start=temp;
@@ -28,7 +28,7 @@ int Database(char ara[],char group[])
     Node *ptr=start;
     while(ptr->next!=NULL)
     {
-        ptr=ptr->next;
+        ptr=ptr->next; // traversing to reach the end of the list
     }
     ptr->next=temp;
     return 0;
